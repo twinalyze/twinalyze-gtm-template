@@ -18,7 +18,7 @@ ___INFO___
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
-    "thumbnail": "data:image/png;base64,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\u003d"
+    "thumbnail": "data:image/png;base64,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"
   },
   "description": "Install Twinalyze Web Analytics, enable automatic event tracking, and send custom events through Google Tag Manager.",
   "containerContexts": [
@@ -43,10 +43,14 @@ ___TEMPLATE_PARAMETERS___
       {
         "value": "track",
         "displayValue": "Track Custom Event"
+      },
+      {
+        "value": "identify",
+        "displayValue": "Identify User"
       }
     ],
     "simpleValueType": true,
-    "help": "Choose what this tag should do. Use “Initialize SDK” once on all pages. Use “Track Custom Event” for dataLayer-based custom events."
+    "help": "Choose what this tag should do. Use “Initialize SDK” once on all pages. Use “Track Custom Event” for dataLayer-based custom events. Use \"Identify user\" for adding userId, email and custom properties."
   },
   {
     "type": "TEXT",
@@ -74,63 +78,7 @@ ___TEMPLATE_PARAMETERS___
         "type": "EQUALS"
       }
     ],
-    "help": "Add secret key here"
-  },
-  {
-    "type": "TEXT",
-    "name": "apiBaseUrl",
-    "displayName": "API Base URL",
-    "simpleValueType": true,
-    "defaultValue": "https://api.twinalyze.com",
-    "help": "The Twinalyze API endpoint. Keep the default value unless you are using a custom or staging endpoint."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enablePageViews",
-    "checkboxText": "Enable Page View Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks pageView events on page load and SPA route changes."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enableScrollTracking",
-    "checkboxText": "Enable Scroll Depth Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks scrollDepth when the visitor scrolls near the bottom of the page."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enableAutoClickTracking",
-    "checkboxText": "Enable Element Click Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks elementClick events for links, buttons, dropdown items, and interactive elements."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enableFormInteractions",
-    "checkboxText": "Enable Form Start / Submit Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks formStart when a visitor focuses a form and formSubmit when a form is submitted."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enableSiteSearch",
-    "checkboxText": "Enable Site Search Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks searchResultsView when the page URL contains a search query parameter."
-  },
-  {
-    "type": "CHECKBOX",
-    "name": "enableFileDownloads",
-    "checkboxText": "Enable File Download Tracking",
-    "simpleValueType": true,
-    "defaultValue": true,
-    "help": "Automatically tracks fileDownload when visitors click links to supported file types."
+    "help": "Add key here"
   },
   {
     "type": "TEXT",
@@ -175,49 +123,51 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "TEXT",
-    "name": "siteSearchParams",
-    "displayName": "Site Search Params",
+    "name": "userId",
+    "displayName": "User ID",
     "simpleValueType": true,
-    "defaultValue": "q,s,search,query",
+    "help": "A unique identifier for the user, such as a customer ID, account ID, or internal user ID.",
     "enablingConditions": [
       {
         "paramName": "tagType",
-        "paramValue": "init",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "enableSiteSearch",
-        "paramValue": true,
+        "paramValue": "identify",
         "type": "EQUALS"
       }
-    ],
-    "help": "Comma-separated URL query parameters used for site search detection."
+    ]
   },
   {
-    "type": "TEXT",
-    "name": "fileDownloadExtensions",
-    "displayName": "File Download Extensions",
-    "simpleValueType": true,
-    "defaultValue": "pdf,zip,apk,doc,docx,xls,xlsx,ppt,pptx",
+    "type": "SIMPLE_TABLE",
+    "name": "identifyPropertyRows",
+    "displayName": "User Properties",
+    "simpleTableColumns": [
+      {
+        "defaultValue": "",
+        "displayName": "Property Name",
+        "name": "identifyPropertyName",
+        "type": "TEXT"
+      },
+      {
+        "defaultValue": "",
+        "displayName": "Property Value",
+        "name": "identifyPropertyValue",
+        "type": "TEXT"
+      }
+    ],
     "enablingConditions": [
       {
         "paramName": "tagType",
-        "paramValue": "init",
-        "type": "EQUALS"
-      },
-      {
-        "paramName": "enableFileDownloads",
-        "paramValue": true,
+        "paramValue": "identify",
         "type": "EQUALS"
       }
     ],
-    "help": "Comma-separated file extensions to track as downloads."
+    "help": "user properties. Use GTM variables such as {{DLV - email}}, {{DLV - first_name}}, or {{DLV - plan}} as property values."
   },
   {
     "type": "CHECKBOX",
-    "name": "debug",
-    "checkboxText": "Advanced - Debug Mode",
+    "name": "enableFcm",
+    "checkboxText": "Enable FCM Token Collection",
     "simpleValueType": true,
+    "help": "Enables Firebase Cloud Messaging token collection when notification permission and FCM configuration are available.",
     "defaultValue": false,
     "enablingConditions": [
       {
@@ -225,38 +175,27 @@ ___TEMPLATE_PARAMETERS___
         "paramValue": "init",
         "type": "EQUALS"
       }
-    ],
-    "help": "Enable only while testing in GTM Preview. Turn off before publishing to production."
+    ]
   },
   {
     "type": "TEXT",
-    "name": "sdkVersion",
-    "displayName": "Advanced - SDK Version",
+    "name": "fcmConfigUrl",
+    "displayName": "FCM Config URL",
     "simpleValueType": true,
-    "defaultValue": "1.0.19",
+    "defaultValue": "/twinalyze-fcm-sw.js",
+    "help": "URL used by the Twinalyze SDK to resolve the Firebase Cloud Messaging configuration.",
     "enablingConditions": [
       {
         "paramName": "tagType",
         "paramValue": "init",
         "type": "EQUALS"
-      }
-    ],
-    "help": "Optional. The Twinalyze Web SDK version used by this tag."
-  },
-  {
-    "type": "TEXT",
-    "name": "sdkUrl",
-    "displayName": "Advanced - SDK URL",
-    "simpleValueType": true,
-    "defaultValue": "https://cdn.jsdelivr.net/npm/@twinalyze/web-analytics@1.0.19/dist/cdn.global.min.js",
-    "enablingConditions": [
+      },
       {
-        "paramName": "tagType",
-        "paramValue": "init",
+        "paramName": "enableFcm",
+        "paramValue": true,
         "type": "EQUALS"
       }
-    ],
-    "help": "Optional. Use only if Twinalyze support asks you to override the SDK URL."
+    ]
   }
 ]
 
@@ -270,9 +209,10 @@ var callInWindow = require('callInWindow');
 var injectScript = require('injectScript');
 var templateStorage = require('templateStorage');
 
-var SDK_URL = 'https://cdn.jsdelivr.net/npm/@twinalyze/web-analytics@1.0.19/dist/cdn.global.min.js';
+var SDK_URL = 'https://cdn.jsdelivr.net/npm/@twinalyze/web-analytics@1.0.24/dist/cdn.global.min.js';
 var SDK_NAME = 'TwinalyzeAnalytics';
 
+var INIT_STORAGE_KEY = 'twinalyze_init_done';
 var INIT_FLAG = '__twinalyze_initialized__';
 var STORAGE_KEY = 'twinalyze_instances';
 var QUEUE_KEY = 'twinalyze_queue';
@@ -298,50 +238,9 @@ function valueOrDefault(v, fallback) {
   return v;
 }
 
-function trimTrailingSlash(url) {
-  if (!url) return url;
 
-  if (url.charAt(url.length - 1) === '/') {
-    return url.substring(0, url.length - 1);
-  }
 
-  return url;
-}
 
-function trimText(value) {
-  var item = '' + value;
-
-  while (item.length > 0 && item.charAt(0) === ' ') {
-    item = item.substring(1);
-  }
-
-  while (item.length > 0 && item.charAt(item.length - 1) === ' ') {
-    item = item.substring(0, item.length - 1);
-  }
-
-  return item;
-}
-
-function csvToArray(value, fallback) {
-  var result = [];
-  var parts;
-  var i;
-  var item;
-
-  if (!value) return fallback;
-
-  parts = ('' + value).split(',');
-
-  for (i = 0; i < parts.length; i++) {
-    item = trimText(parts[i]);
-
-    if (item) {
-      result.push(item);
-    }
-  }
-
-  return result.length ? result : fallback;
-}
 
 function logInfo(msg) {
   if (normalize(data.debug) === true) {
@@ -436,65 +335,25 @@ function flushQueue() {
 /* ---------------- init helpers ---------------- */
 
 function isInitialized() {
-  return copyFromWindow(INIT_FLAG) === true;
+  return (
+    templateStorage.getItem(INIT_STORAGE_KEY) === true ||
+    copyFromWindow(INIT_FLAG) === true
+  );
 }
 
 function markInitialized() {
+  templateStorage.setItem(INIT_STORAGE_KEY, true);
   setInWindow(INIT_FLAG, true, true);
 }
 
 function getInstanceKey() {
   return [
     data.apiKey || '',
-    data.apiBaseUrl || '',
-    data.sdkUrl || SDK_URL
+    SDK_URL
   ].join('|');
 }
 
-/* ---------------- enhanced measurement ---------------- */
 
-function buildEnhancedMeasurement() {
-  var enableSiteSearch = normalize(data.enableSiteSearch) !== false;
-  var enableFileDownloads = normalize(data.enableFileDownloads) !== false;
-
-  return {
-    pageViews: normalize(data.enablePageViews) !== false,
-
-    scrolls: normalize(data.enableScrollTracking) !== false,
-
-    outboundClicks: normalize(data.enableAutoClickTracking) !== false,
-
-    formInteractions: normalize(data.enableFormInteractions) !== false,
-
-    siteSearch: enableSiteSearch
-      ? {
-          params: csvToArray(
-            data.siteSearchParams,
-            ['q', 's', 'search', 'query']
-          )
-        }
-      : false,
-
-    fileDownloads: enableFileDownloads
-      ? {
-          extensions: csvToArray(
-            data.fileDownloadExtensions,
-            [
-              'pdf',
-              'zip',
-              'apk',
-              'doc',
-              'docx',
-              'xls',
-              'xlsx',
-              'ppt',
-              'pptx'
-            ]
-          )
-        }
-      : false
-  };
-}
 
 /* ---------------- custom event properties ---------------- */
 
@@ -513,6 +372,53 @@ function buildEventProperties() {
   }
 
   return props;
+}
+
+/* --------------Identify properties---------------------*/
+
+function buildIdentifyProperties() {
+  var props = {};
+  var rows = data.identifyPropertyRows || [];
+  var i;
+  var row;
+
+  for (i = 0; i < rows.length; i++) {
+    row = rows[i];
+
+    if (row && row.identifyPropertyName) {
+      props[row.identifyPropertyName] = normalize(
+        row.identifyPropertyValue
+      );
+    }
+  }
+
+  return props;
+}
+
+
+/*--------------------FCM helper------------------*/
+
+
+function buildFcmConfig() {
+  var enabled = normalize(data.enableFcm) === true;
+  var configUrl;
+
+  if (!enabled) {
+    return {
+      enabled: false
+    };
+  }
+
+  configUrl = valueOrDefault(
+    data.fcmConfigUrl,
+    '/twinalyze-fcm-sw.js'
+  );
+
+  return {
+    enabled: true,
+    configUrl: configUrl,
+    serviceWorkerPath: configUrl
+  };
 }
 
 /* ---------------- main logic ---------------- */
@@ -535,25 +441,12 @@ function runTag() {
     if (!data.apiKey) return fail('apiKey required');
     if (!data.secretKey) return fail('secretKey required');
 
-    payload = {
-      apiKey: data.apiKey,
-      secretKey: data.secretKey,
-
-      version: valueOrDefault(data.sdkVersion, '1.0.19'),
-
-      apiBaseUrl: trimTrailingSlash(
-        valueOrDefault(
-          data.apiBaseUrl,
-          'https://api.twinalyze.com'
-        )
-      ),
-
-      debug: normalize(data.debug) === true,
-
-     source: 'web',
-
-      enhancedMeasurement: buildEnhancedMeasurement()
-    };
+payload = {
+  apiKey: data.apiKey,
+  secretKey: data.secretKey,
+  source: 'web',
+  fcm: buildFcmConfig()
+};
 
     instances = getStorageArray(STORAGE_KEY);
     instanceKey = getInstanceKey();
@@ -603,6 +496,23 @@ function runTag() {
     if (ok) return success('Tracked: ' + data.eventName);
     return fail('Track failed');
   }
+  
+  
+/* ---------- IDENTIFY USER ---------- */
+
+if (type === 'identify') {
+  if (!data.userId) {
+    return fail('userId required');
+  }
+
+  callInWindow(
+    'TwinalyzeAnalytics.identify',
+    data.userId,
+    buildIdentifyProperties()
+  );
+
+  return success('Identified user');
+}
 
   return fail('Unsupported type: ' + type);
 }
@@ -610,7 +520,7 @@ function runTag() {
 /* ---------------- SDK loader ---------------- */
 
 function ensureSdkLoaded(callback) {
-  var url = data.sdkUrl || SDK_URL;
+  var url = SDK_URL;
 
   if (getSdk()) {
     return callback();
@@ -835,6 +745,45 @@ ___WEB_PERMISSIONS___
                     "boolean": false
                   }
                 ]
+              },
+              {
+                "type": 3,
+                "mapKey": [
+                  {
+                    "type": 1,
+                    "string": "key"
+                  },
+                  {
+                    "type": 1,
+                    "string": "read"
+                  },
+                  {
+                    "type": 1,
+                    "string": "write"
+                  },
+                  {
+                    "type": 1,
+                    "string": "execute"
+                  }
+                ],
+                "mapValue": [
+                  {
+                    "type": 1,
+                    "string": "TwinalyzeAnalytics.identify"
+                  },
+                  {
+                    "type": 8,
+                    "boolean": false
+                  },
+                  {
+                    "type": 8,
+                    "boolean": false
+                  },
+                  {
+                    "type": 8,
+                    "boolean": true
+                  }
+                ]
               }
             ]
           }
@@ -894,7 +843,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -910,8 +860,7 @@ scenarios:
 
     runCode({
       tagType: 'init',
-      secretKey: 'test_secret',
-      apiBaseUrl: 'https://api.twinalyze.com'
+      secretKey: 'test_secret'
     });
 
     assertApi('gtmOnFailure').wasCalled();
@@ -923,7 +872,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -939,8 +889,7 @@ scenarios:
 
     runCode({
       tagType: 'init',
-      apiKey: 'test_api_key',
-      apiBaseUrl: 'https://api.twinalyze.com'
+      apiKey: 'test_api_key'
     });
 
     assertApi('gtmOnFailure').wasCalled();
@@ -954,7 +903,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -978,18 +928,7 @@ scenarios:
       tagType: 'init',
       apiKey: 'test_api_key',
       secretKey: 'test_secret',
-      apiBaseUrl: 'https://api.twinalyze.com',
-      sdkVersion: '1.0.19',
-      debug: false,
-
-      enablePageViews: true,
-      enableScrollTracking: true,
-      enableAutoClickTracking: true,
-      enableFormInteractions: true,
-      enableSiteSearch: true,
-      siteSearchParams: 'q,s,search,query',
-      enableFileDownloads: true,
-      fileDownloadExtensions: 'pdf,zip,doc,docx'
+      enableFcm: false
     });
 
     assertApi('gtmOnSuccess').wasCalled();
@@ -1000,21 +939,9 @@ scenarios:
       {
         apiKey: 'test_api_key',
         secretKey: 'test_secret',
-        version: '1.0.19',
-        apiBaseUrl: 'https://api.twinalyze.com',
-        debug: false,
         source: 'web',
-        enhancedMeasurement: {
-          pageViews: true,
-          scrolls: true,
-          outboundClicks: true,
-          formInteractions: true,
-          siteSearch: {
-            params: ['q', 's', 'search', 'query']
-          },
-          fileDownloads: {
-            extensions: ['pdf', 'zip', 'doc', 'docx']
-          }
+        fcm: {
+          enabled: false
         }
       }
     );
@@ -1024,7 +951,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -1055,7 +983,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -1112,7 +1041,8 @@ scenarios:
       if (key === 'TwinalyzeAnalytics') {
         return {
           init: function() {},
-          track: function() {}
+          track: function() {},
+          identify: function() {}
         };
       }
 
@@ -1150,10 +1080,96 @@ scenarios:
     assertThat(store.twinalyze_queue.length).isEqualTo(1);
     assertThat(store.twinalyze_queue[0].method).isEqualTo('track');
     assertThat(store.twinalyze_queue[0].args[0]).isEqualTo('addToCart');
+    assertThat(store.twinalyze_queue[0].args[1]).isEqualTo({
+      product_id: 'P123'
+    });
+- name: Identify fails without userId
+  code: |-
+    mock('copyFromWindow', function(key) {
+      if (key === 'TwinalyzeAnalytics') {
+        return {
+          init: function() {},
+          track: function() {},
+          identify: function() {}
+        };
+      }
+
+      if (key === '__twinalyze_initialized__') {
+        return true;
+      }
+
+      return undefined;
+    });
+
+    mockObject('templateStorage', {
+      getItem: function(key) {
+        return [];
+      },
+      setItem: function(key, value) {}
+    });
+
+    runCode({
+      tagType: 'identify'
+    });
+
+    assertApi('gtmOnFailure').wasCalled();
+    assertApi('gtmOnSuccess').wasNotCalled();
+    assertApi('callInWindow').wasNotCalled();
+- name: Identify calls Twinalyze identify
+  code: |-
+    mock('copyFromWindow', function(key) {
+      if (key === 'TwinalyzeAnalytics') {
+        return {
+          init: function() {},
+          track: function() {},
+          identify: function() {}
+        };
+      }
+
+      if (key === '__twinalyze_initialized__') {
+        return true;
+      }
+
+      return undefined;
+    });
+
+    mockObject('templateStorage', {
+      getItem: function(key) {
+        return [];
+      },
+      setItem: function(key, value) {}
+    });
+
+    runCode({
+      tagType: 'identify',
+      userId: 'user_123',
+      identifyPropertyRows: [
+        {
+          identifyPropertyName: 'email',
+          identifyPropertyValue: 'user@example.com'
+        },
+        {
+          identifyPropertyName: 'plan',
+          identifyPropertyValue: 'growth'
+        }
+      ]
+    });
+
+    assertApi('gtmOnSuccess').wasCalled();
+    assertApi('gtmOnFailure').wasNotCalled();
+
+    assertApi('callInWindow').wasCalledWith(
+      'TwinalyzeAnalytics.identify',
+      'user_123',
+      {
+        email: 'user@example.com',
+        plan: 'growth'
+      }
+    );
 
 
 ___NOTES___
 
-Created on 24/06/2026, 15:42:49
+Created on 8/3/2026, 2:07:00 PM
 
 
