@@ -82,7 +82,7 @@ These permissions are used to load the Twinalyze Web SDK, initialize the SDK, se
 
 ## Documentation
 
-https://docs.twinalyze.com/3rd-party-integrations/gtm
+https://docs.twinalyze.com/integrations/gtm
 
 ## Support
 
