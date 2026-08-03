@@ -1,5 +1,7 @@
 homepage: "https://twinalyze.com"
-documentation: "https://docs.twinalyze.com/3rd-party-integrations/gtm"
+documentation: "https://docs.twinalyze.com/integrations/gtm"
 versions:
   - sha: 437602e4477de235dc9b847419dc01ddc87554fe
     changeNotes: Initial release of the Twinalyze Web Analytics GTM template.
+  - sha: 9574ec49ef6f25807b0ec4c0a0d2af44400e888e
+    changeNotes: Updated SDK version of 1.0.24 and reduced the script.
