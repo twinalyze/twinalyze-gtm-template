@@ -66,20 +66,20 @@ ___TEMPLATE_PARAMETERS___
     ],
     "help": "Enter the Twinalyze API key for this project."
   },
-  {
-    "type": "TEXT",
-    "name": "secretKey",
-    "displayName": "Public key",
-    "simpleValueType": true,
-    "enablingConditions": [
-      {
-        "paramName": "tagType",
-        "paramValue": "init",
-        "type": "EQUALS"
-      }
-    ],
-    "help": "Add key here"
-  },
+ {
+  "type": "TEXT",
+  "name": "secretKey",
+  "displayName": "Client ID",
+  "simpleValueType": true,
+  "enablingConditions": [
+    {
+      "paramName": "tagType",
+      "paramValue": "init",
+      "type": "EQUALS"
+    }
+  ],
+  "help": "Enter the Twinalyze Client ID for this project."
+},
   {
     "type": "TEXT",
     "name": "eventName",
@@ -349,6 +349,8 @@ function markInitialized() {
 function getInstanceKey() {
   return [
     data.apiKey || '',
+    data.secretKey || '',
+    'gtm',
     SDK_URL
   ].join('|');
 }
@@ -439,12 +441,13 @@ function runTag() {
 
   if (type === 'init') {
     if (!data.apiKey) return fail('apiKey required');
-    if (!data.secretKey) return fail('secretKey required');
+   if (!data.secretKey) return fail('Client ID required');
 
 payload = {
   apiKey: data.apiKey,
   secretKey: data.secretKey,
   source: 'web',
+  platform: 'gtm',
   fcm: buildFcmConfig()
 };
 
@@ -860,13 +863,13 @@ scenarios:
 
     runCode({
       tagType: 'init',
-      secretKey: 'test_secret'
+      secretKey: 'test_client_id'
     });
 
     assertApi('gtmOnFailure').wasCalled();
     assertApi('gtmOnSuccess').wasNotCalled();
     assertApi('callInWindow').wasNotCalled();
-- name: Init fails without secretKey
+- name: Init fails without Client ID
   code: |-
     mock('copyFromWindow', function(key) {
       if (key === 'TwinalyzeAnalytics') {
@@ -927,7 +930,7 @@ scenarios:
     runCode({
       tagType: 'init',
       apiKey: 'test_api_key',
-      secretKey: 'test_secret',
+      secretKey: 'test_client_id',
       enableFcm: false
     });
 
@@ -938,8 +941,9 @@ scenarios:
       'TwinalyzeAnalytics.init',
       {
         apiKey: 'test_api_key',
-        secretKey: 'test_secret',
+        secretKey: 'test_client_id',
         source: 'web',
+        platform: 'gtm',
         fcm: {
           enabled: false
         }
