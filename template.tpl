@@ -209,7 +209,7 @@ var callInWindow = require('callInWindow');
 var injectScript = require('injectScript');
 var templateStorage = require('templateStorage');
 
-var SDK_URL = 'https://cdn.jsdelivr.net/npm/@twinalyze/web-analytics@1.0.24/dist/cdn.global.min.js';
+var SDK_URL = 'https://cdn.jsdelivr.net/npm/@twinalyze/web-analytics@1.0.26/dist/cdn.global.min.js';
 var SDK_NAME = 'TwinalyzeAnalytics';
 
 var INIT_STORAGE_KEY = 'twinalyze_init_done';
