@@ -1,11 +1,15 @@
 homepage: "https://twinalyze.com"
 documentation: "https://docs.twinalyze.com/integrations/gtm"
+
 versions:
-   - sha: b98a4b2d0f4d21c43156bdd2bac5a8a36f703547
+  - sha: b98a4b2d0f4d21c43156bdd2bac5a8a36f703547
     changeNotes: Updated platform identifier from gtm to google-tag-manager.
+
   - sha: 28baa9bf992d5dc8b16a7c37a3cb5b41b5915bee
     changeNotes: Updated clientId and platform.
+
   - sha: 9574ec49ef6f25807b0ec4c0a0d2af44400e888e
     changeNotes: Updated SDK version to 1.0.24, simplified initialization, added Identify User support, and added optional FCM token collection configuration.
+
   - sha: 437602e4477de235dc9b847419dc01ddc87554fe
     changeNotes: Initial release of the Twinalyze Web Analytics GTM template.
