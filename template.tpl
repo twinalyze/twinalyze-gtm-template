@@ -350,7 +350,7 @@ function getInstanceKey() {
   return [
     data.apiKey || '',
     data.secretKey || '',
-    'gtm',
+    'google-tag-manager',
     SDK_URL
   ].join('|');
 }
@@ -447,7 +447,7 @@ payload = {
   apiKey: data.apiKey,
   secretKey: data.secretKey,
   source: 'web',
-  platform: 'gtm',
+  platform: 'google-tag-manager',
   fcm: buildFcmConfig()
 };
 
@@ -943,7 +943,7 @@ scenarios:
         apiKey: 'test_api_key',
         secretKey: 'test_client_id',
         source: 'web',
-        platform: 'gtm',
+        platform: 'google-tag-manager',
         fcm: {
           enabled: false
         }
