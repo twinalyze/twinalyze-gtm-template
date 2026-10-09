@@ -2,6 +2,9 @@ homepage: "https://twinalyze.com"
 documentation: "https://docs.twinalyze.com/integrations/gtm"
 
 versions:
+  - sha: 0b3c9c4ed4d1828391e039bff935017b9e1e61ba
+    changeNotes: Updated platform identifier from gtm to google-tag-manager-latest.
+
   - sha: b98a4b2d0f4d21c43156bdd2bac5a8a36f703547
     changeNotes: Updated platform identifier from gtm to google-tag-manager.
 
