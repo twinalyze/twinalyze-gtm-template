@@ -2,6 +2,9 @@ homepage: "https://twinalyze.com"
 documentation: "https://docs.twinalyze.com/integrations/gtm"
 
 versions:
+  - sha: 55b6c2f06583cad385c31cfa9e628d133fb1cda3
+    changeNotes: Updated Twinalyze Web Analytics SDK to version 1.0.27.
+  
   - sha: 0b3c9c4ed4d1828391e039bff935017b9e1e61ba
     changeNotes: Updated platform identifier from gtm to google-tag-manager-latest.
 
